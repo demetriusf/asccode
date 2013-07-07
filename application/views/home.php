@@ -21,34 +21,38 @@
 
     	<header>
     	
-    		<div class="box-centered box-main-width" >
-    		
-    		    <div class="header-wrapper-box box-centered" >
-    		
-    		
-	    			<h1 class="header-logo-box"><a href="http://www.google.com.br" title="Ir para inicial da Asccode" class="logo ir" >Asccode desenvolvimento de sistemas</a></h1>
-	    			<nav class="header-nav-box">
+	    	<div class="nav-social-box">
+	    	
+	    		<div class="box-centered box-main-width" >
+	    		
+	    		    <div class="header-wrapper-box box-centered" >
+	    		
+	    		
+		    			<h1 class="header-logo-box"><a href="http://www.google.com.br" title="Ir para inicial da Asccode" class="logo ir" >Asccode desenvolvimento de sistemas</a></h1>
+		    			<nav class="header-nav-box">
+		    			
+		    				<ul class="nav-list clear-fix">
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Home</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Quem Somos</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >O que fazemos</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Clientes</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Cases</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Contato</a> </li>
+		    				</ul>
+		    			
+		    			</nav>
+		    			
+		    			<ul class="header-social-box social-list">
+		    					<li class="social-list-item"> <a href="http://www.google.com.br" title="" class="facebook">F</a> </li>
+		    					<li class="social-list-item"> <a href="http://www.google.com.br" title="" class="twitter">T</a> </li>
+		    					<li class="social-list-item"> <a href="http://www.google.com.br" title="" class="gplus">G</a> </li>
+		    			</ul>
+	    		
+	    			</div>
 	    			
-	    				<ul class="nav-list clear-fix">
-	    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Home</a> </li>
-	    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Quem Somos</a> </li>
-	    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >O que fazemos</a> </li>
-	    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Clientes</a> </li>
-	    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Cases</a> </li>
-	    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Contato</a> </li>
-	    				</ul>
-	    			
-	    			</nav>
-	    			
-	    			<ul class="header-social-box social-list">
-	    					<li class="social-list-item"> <a href="http://www.google.com.br" title="" class="facebook">F</a> </li>
-	    					<li class="social-list-item"> <a href="http://www.google.com.br" title="" class="twitter">T</a> </li>
-	    					<li class="social-list-item"> <a href="http://www.google.com.br" title="" class="gplus">G</a> </li>
-	    			</ul>
-    		
-    			</div>
-    			
-    		</div>
+	    		</div>
+	    		
+	    	</div>
     	
     	</header>
     	
