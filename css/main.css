@@ -587,6 +587,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+.header-logo-box, .social-list .social-list-item {
+	
+	background: url(../img/main-sprite.png) no-repeat;
+	
+}
+
 .box-centered{ 
 	margin: auto;
 	display: block;
@@ -617,7 +624,6 @@ textarea {
 
 .header-logo-box .logo{
 	
-	background: url(../img/logo-topo.png) no-repeat;
 	display: block;
 	height: 100%;
 	width: 100%;
@@ -661,9 +667,56 @@ textarea {
 	
 }
 
+/* social */
+
 .social-list .social-list-item {
 	
-	display: inline;
+	display: inline-block;
+	
+}
+
+
+.social-list .facebook {
+	
+	background-position: -225px 0;
+	
+}
+
+.social-list .facebook:hover {
+	
+	background-position: -225px -29px;
+	
+}
+
+.social-list .twitter {
+	
+	background-position: -257px 0;
+	
+}
+
+.social-list .twitter:hover {
+	
+	background-position: -257px -29px;
+	
+}
+
+.social-list .gplus {
+	
+	background-position: -289px 0;
+	
+}
+
+.social-list .gplus:hover {
+	
+	background-position: -289px -29px;
+	
+}
+
+.social-list .social-list-item a {
+	
+	display: block;
+	height: 28px;	
+	width: 29px;
 	
 }
 

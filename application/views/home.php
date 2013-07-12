@@ -43,9 +43,9 @@
 		    			</nav>
 		    			
 		    			<ul class="header-social-box social-list">
-		    					<li class="social-list-item"> <a href="http://www.google.com.br" title="" class="facebook">F</a> </li>
-		    					<li class="social-list-item"> <a href="http://www.google.com.br" title="" class="twitter">T</a> </li>
-		    					<li class="social-list-item"> <a href="http://www.google.com.br" title="" class="gplus">G</a> </li>
+		    					<li class="social-list-item facebook"> <a href="http://www.google.com.br" title="Clique aqui e torne-se um fã do Asccode no Facebook." class="ir">Facebook</a> </li>
+		    					<li class="social-list-item twitter"> <a href="http://www.google.com.br" title="Siga o perfil do Asccode no Twitter." class="ir">Twitter</a> </li>
+		    					<li class="social-list-item gplus"> <a href="http://www.google.com.br" title="Siga o perfil do Asccode no G+." class="ir">Google Plus</a> </li>
 		    			</ul>
 	    		
 	    			</div>
