@@ -8,8 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title></title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-
+        
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -29,6 +28,7 @@
 	    		
 	    		
 		    			<h1 class="header-logo-box"><a href="http://www.google.com.br" title="Ir para inicial da Asccode" class="logo ir" >Asccode desenvolvimento de sistemas</a></h1>
+		    			
 		    			<nav class="header-nav-box">
 		    			
 		    				<ul class="nav-list">
@@ -56,11 +56,15 @@
     	
     	</header>
     	
+    	<section role="main">
+
+    	</section>
+
     	<footer class="footer clearfix">
     	
     		<div class="box-centered box-main-width">
     		
-    			<section class="footer-section-nav">
+    			<div class="footer-section-nav">
     			
 		    		<div class="footer-nav-box">
 		    			
@@ -81,14 +85,16 @@
 		    					<li class="social-list-item gplus"> <a href="http://www.google.com.br" title="Siga o perfil do Asccode no G+." class="ir">Google Plus</a> </li>
 		    		</ul>
     			
-    			</section>
+    			</div>
     		
-    			<section class="footer-section-contact">
+    			<section class="footer-section footer-section-contact">
     				<h1>Contato</h1>
+    				<p>Entre em contato conosco através do formulário abaixo.</p>
     			</section>
     			
-    			<section class="footer-section-newsletter">
+    			<section class="footer-section footer-section-newsletter">
     				<h1>Novidades</h1>
+    				<p>Recaba as nossas novidades por email e fique por dentro  de tudo.</p>    				
     			</section>
     		
     		</div>
