@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title></title>
         <meta name="description" content="">
-        
+
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -90,6 +90,11 @@
     			<section class="footer-section footer-section-contact">
     				<h1>Contato</h1>
     				<p>Entre em contato conosco através do formulário abaixo.</p>
+                    <form action="" method="post">
+                        <input name="name" placeholder="Nome" type="text" maxlength="30">    
+                        <input name="email" placeholder="Email" type="email">    
+                        <textarea name="message" placeholder="Mensagem"></textarea>   
+                    </form>
     			</section>
     			
     			<section class="footer-section footer-section-newsletter">
