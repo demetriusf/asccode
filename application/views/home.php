@@ -19,7 +19,7 @@
             <p class="chromeframe">Você está usando um navegador <strong>desatualizado</strong>. Por favor <a href="http://browsehappy.com/">atualize o seu navegador</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">ative Google Chrome Frame</a> para melhorar a sua experiência.</p>
         <![endif]-->
 
-    	<header>
+    	<header class="header clearfix">
     	
 	    	<div class="nav-social-box">
 	    	
@@ -31,7 +31,7 @@
 		    			<h1 class="header-logo-box"><a href="http://www.google.com.br" title="Ir para inicial da Asccode" class="logo ir" >Asccode desenvolvimento de sistemas</a></h1>
 		    			<nav class="header-nav-box">
 		    			
-		    				<ul class="nav-list clear-fix">
+		    				<ul class="nav-list">
 		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Home</a> </li>
 		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Quem Somos</a> </li>
 		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >O que fazemos</a> </li>
@@ -56,7 +56,42 @@
     	
     	</header>
     	
-    	<footer>
+    	<footer class="footer clearfix">
+    	
+    		<div class="box-centered box-main-width">
+    		
+    			<section class="footer-section-nav">
+    			
+		    		<div class="footer-nav-box">
+		    			
+		    				<ul class="nav-list">
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Home</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Quem Somos</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >O que fazemos</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Clientes</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Cases</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Contato</a> </li>
+		    				</ul>
+		    			
+		    		</div>
+		    			
+		    		<ul class="footer-social-box social-list">
+		    					<li class="social-list-item facebook"> <a href="http://www.google.com.br" title="Clique aqui e torne-se um fã do Asccode no Facebook." class="ir">Facebook</a> </li>
+		    					<li class="social-list-item twitter"> <a href="http://www.google.com.br" title="Siga o perfil do Asccode no Twitter." class="ir">Twitter</a> </li>
+		    					<li class="social-list-item gplus"> <a href="http://www.google.com.br" title="Siga o perfil do Asccode no G+." class="ir">Google Plus</a> </li>
+		    		</ul>
+    			
+    			</section>
+    		
+    			<section class="footer-section-contact">
+    				<h1>Contato</h1>
+    			</section>
+    			
+    			<section class="footer-section-newsletter">
+    				<h1>Novidades</h1>
+    			</section>
+    		
+    		</div>
     	
     	</footer>
     

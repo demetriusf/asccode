@@ -601,73 +601,6 @@ textarea {
 
 .box-main-width{ max-width:1001px; }
 
-.nav-social-box {
-	
-	background: #fbc900;
-	height: 50px;
-	
-}
-
-.header-wrapper-box {
-	
-	width: 71.5284%; /* 716/1001 */
-	
-}
-
-.header-logo-box {
-	
-	float: left;
-	height: 106px;
-	margin: 0;
-	width: 31.2849%; /* 224/716 */
-}
-
-.header-logo-box .logo{
-	
-	display: block;
-	height: 100%;
-	width: 100%;
-	
-}
-
-.header-nav-box {
-	
-	float: right;
-	height:100%;
-	width: 68.7150%; /* 492/716 */
-	
-}
-
-.nav-list {
-	
-	margin: 0 0 0 2.4390% /*12/492*/;
-	padding: 0;
-	
-}
-
-.nav-list .nav-list-item a {
-	
-	color: #000;
-	float: left;
-	font-size: .9375em /*15/16*/;
-	padding: 15px 9px 14px;
-	text-decoration: none;
-	
-}
-
-.nav-list .nav-list-item a:hover {
-	
-	background: #f4c401;
-	
-}
-
-.header-social-box {
-	
-	float: right;
-	margin: 7px 0 0;
-	
-}
-
 /* social */
 
 .social-list .social-list-item {
@@ -718,6 +651,132 @@ textarea {
 	display: block;
 	height: 28px;	
 	width: 29px;
+	
+}
+
+.nav-social-box {
+	
+	background: #fbc900;
+	height: 50px;
+	
+}
+
+.header-wrapper-box {
+	
+	width: 71.5284%; /* 716/1001 */
+	
+}
+
+.header-logo-box {
+	
+	float: left;
+	height: 106px;
+	margin: 0;
+	width: 31.2849%; /* 224/716 */
+}
+
+.header-logo-box .logo{
+	
+	display: block;
+	height: 100%;
+	width: 100%;
+	
+}
+
+/* nav header */
+
+.header-nav-box {
+	
+	float: right;
+	height:100%;
+	width: 68.7150%; /* 492/716 */
+	
+}
+
+.header-nav-box .nav-list {
+	
+	margin: 0 0 0 2.4390% /*12/492*/;
+	padding: 0;
+	
+}
+
+.header-nav-box .nav-list .nav-list-item a {
+	
+	color: #000;
+	float: left;
+	font-size: .9375em /*15/16*/;
+	padding: 15px 9px 14px;
+	text-decoration: none;
+	
+}
+
+.header-nav-box .nav-list .nav-list-item a:hover {
+	
+	background: #f4c401;
+	
+}
+
+.header-social-box {
+	
+	float: right;
+	margin: 7px 0 0;
+	
+}
+
+.footer {
+	
+	background: #fbc900;
+	min-height: 280px;
+	padding-top: 22px;
+	
+}
+
+.footer-section-nav {
+	
+	float: left;
+	min-width: 36.9433%;
+	
+}
+
+.footer-section-nav .nav-list {
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.footer-section-nav .nav-list .nav-list-item a {
+	
+	color: #000;
+	font-size: 1.25em /*20/16*/;
+	text-decoration: none;
+	
+}
+
+.footer-section-nav .nav-list .nav-list-item a:hover {
+	
+	text-decoration: underline;
+	
+}
+
+.footer-social-box {
+	
+	padding: 0;
+	
+}
+
+.footer-section-contact {
+	
+	float: left;
+	width: 20.1798%;outline: 1px solid red;height:40px;
+	
+}
+
+.footer-section-newsletter {
+	
+	float: right;
+	width: 20.4795%;outline: 1px solid pink;height:40px;
 	
 }
 
