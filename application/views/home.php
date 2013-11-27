@@ -9,7 +9,7 @@
         <title></title>
         <meta name="description" content="">
 
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main<?php echo $this -> config -> item('production_file_sufix'); ?>.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -25,7 +25,6 @@
 	    		<div class="box-centered box-main-width" >
 	    		
 	    		    <div class="header-wrapper-box box-centered" >
-	    		
 	    		
 		    			<h1 class="header-logo-box"><a href="http://www.google.com.br" title="Ir para inicial da Asccode" class="logo ir" >Asccode desenvolvimento de sistemas</a></h1>
 		    			
@@ -91,15 +90,21 @@
     				<h1>Contato</h1>
     				<p>Entre em contato conosco através do formulário abaixo.</p>
                     <form action="" method="post">
-                        <input name="name" placeholder="Nome" type="text" maxlength="30">    
-                        <input name="email" placeholder="Email" type="email">    
-                        <textarea name="message" placeholder="Mensagem"></textarea>   
+                        <input class="input-fluid-one" name="name" placeholder="Seu nome" type="text" maxlength="30"> <br>   
+                        <input class="input-fluid-one" name="email" placeholder="Seu e-mail" type="email"> <br>    
+                        <textarea class="textarea-fluid-one" name="message" placeholder="Mensagem"></textarea> <br>  
+                        <button class="button-one footer-contact-button" >Enviar</button>
                     </form>
     			</section>
     			
     			<section class="footer-section footer-section-newsletter">
     				<h1>Novidades</h1>
-    				<p>Recaba as nossas novidades por email e fique por dentro  de tudo.</p>    				
+    				<p>Receba as nossas novidades por email e fique por dentro  de tudo.</p> 
+                    <form action="" method="post">
+                        <input class="input-fluid-one" name="name" placeholder="Seu nome" type="text" maxlength="30"> <br>   
+                        <input class="input-fluid-one" name="email" placeholder="Seu e-mail" type="email"> <br>    
+                        <button class="button-one footer-newsletter-button" >Cadastrar</button>
+                    </form>   				
     			</section>
     		
     		</div>
@@ -108,15 +113,16 @@
     
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+				
+	   	<script src="js/plugins<?php echo $this -> config -> item('production_file_sufix'); ?>.js"></script>
+	    <script src="js/main<?php echo $this -> config -> item('production_file_sufix'); ?>.js"></script>
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+	    <script>
+	         var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	         (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	         g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	         s.parentNode.insertBefore(g,s)}(document,'script'));
+	    </script>
+	        
     </body>
 </html>

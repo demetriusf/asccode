@@ -535,7 +535,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #000;
 }
 
 body {
@@ -544,12 +544,14 @@ body {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #000;
+	color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #000;
+	color: #fff;
     text-shadow: none;
 }
 
@@ -588,9 +590,46 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Sprites */
 .header-logo-box, .social-list .social-list-item {
 	
 	background: url(../img/main-sprite.png) no-repeat;
+	
+}
+
+/* inputs */
+.input-fluid-one {
+	
+	border: none;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 28px;
+	margin: 2px 0;
+	padding: 4px 0 0 5%;
+	width: 100%;
+	
+}
+
+.textarea-fluid-one {
+	
+	border: none;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 2px 0;
+	padding: 4px 0 0 5%;
+	width: 100%;
+	
+}
+
+.button-one {
+	
+	background: #000;
+	border: none;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	color: #fff;
+	margin: 4px 0;
+	padding: 6px 10%;
 	
 }
 
@@ -599,7 +638,7 @@ textarea {
 	display: block;
 }
 
-.box-main-width{ max-width:1001px; }
+.box-main-width{ width:1001px; }
 
 /* social */
 
@@ -785,14 +824,20 @@ textarea {
 .footer-section-contact {
 	
 	float: left;
-	width: 20.1798%;outline: 1px solid red;
+	width: 20.1798%;
 	
 }
 
 .footer-section-newsletter {
 	
 	float: right;
-	width: 20.4795%;outline: 1px solid pink;
+	width: 20.4795%;
+	
+}
+
+.footer-section-contact .footer-contact-button, .footer-section-newsletter .footer-newsletter-button{
+	
+	float: right;
 	
 }
 
@@ -800,12 +845,7 @@ textarea {
    Media Queries
    ========================================================================== */
 
-@viewport {
-    width: device-width;
-    zoom: 1;
-}
-
-/* e os prefixos */
+@viewport { width: device-width; zoom: 1; }
 @-ms-viewport { width: device-width; zoom: 1; }
 @-o-viewport  { width: device-width; zoom: 1; }
 
