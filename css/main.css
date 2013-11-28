@@ -762,6 +762,57 @@ textarea {
 	
 }
 
+/* index content */
+
+.detailed-link {
+
+    background: #f7f6f6;
+    margin: auto;
+    padding: 0 1.0989%;
+    text-align: justify;
+    width: 80%;
+
+}
+
+.detailed-link a {
+
+    background: #ffcc00;
+    color: #000;
+    font-size: 20px;
+    display: block;
+    float: right;
+    text-decoration: none;
+
+}
+
+.box-meta {
+
+    background: #f7f6f6;
+    border-left: 3px solid #ffcc00;
+    float: left;
+    margin: 3.0969% 0 5.2934% 3.0969%;
+    padding: 0 1.0989%;
+    text-align: justify;
+    width: 26.75%;
+
+}
+
+.box-meta .box-meta-title {
+
+    color: #dab10e;
+    font-size: 27px; 
+
+}
+
+.box-meta .box-meta-content {
+
+    color: #000;
+    font-size: 13px; 
+
+}
+
+/* Footer */
+
 .footer {
 	
 	background: #fbc900;

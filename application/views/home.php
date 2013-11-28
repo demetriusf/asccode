@@ -55,7 +55,73 @@
     	
     	</header>
     	
-    	<section role="main">
+    	<section role="main" class="clearfix">
+
+    		<section class="detailed-link">
+    			
+    			<p class="details">
+	    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    			</p>
+
+    			<a href="" hreflang="pt-br" title="Entre em contato"> Entre em contato </a>
+
+    		</section>
+
+    		<section class="box-meta">
+    			
+    			<h1 class="box-meta-title"> Sobre a Asccode </h1>
+
+    			<p class="box-meta-content">
+    				
+	    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    			</p>
+
+    		</section>
+
+    		<section class="box-meta">
+    			
+    			<h1 class="box-meta-title"> Depoimentos </h1>
+
+    			<p class="box-meta-content">
+    				
+	    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    			</p>
+
+    		</section>
+
+    		<section class="box-meta">
+    			
+    			<h1 class="box-meta-title"> Por quê nos escolher? </h1>
+
+    			<p class="box-meta-content">
+    				
+	    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    			</p>
+
+    		</section>
 
     	</section>
 
@@ -89,7 +155,7 @@
     			<section class="footer-section footer-section-contact">
     				<h1>Contato</h1>
     				<p>Entre em contato conosco através do formulário abaixo.</p>
-                    <form action="" method="post">
+                    <form action="" method="post" role="form">
                         <input class="input-fluid-one" name="name" placeholder="Seu nome" type="text" maxlength="30"> <br>   
                         <input class="input-fluid-one" name="email" placeholder="Seu e-mail" type="email"> <br>    
                         <textarea class="textarea-fluid-one" name="message" placeholder="Mensagem"></textarea> <br>  
