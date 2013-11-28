@@ -55,7 +55,7 @@
     	
     	</header>
     	
-    	<section role="main" class="clearfix">
+    	<section role="main" class="box-centered box-main-width clearfix">
 
     		<section class="detailed-link">
     			
@@ -91,16 +91,16 @@
 
     		<section class="box-meta">
     			
-    			<h1 class="box-meta-title"> Depoimentos </h1>
+    			<h1 class="box-meta-title"> Por quê nos escolher? </h1>
 
     			<p class="box-meta-content">
     				
-	    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    				<ul>
+    					<li> Produtos de alta qualidade. </li>
+    					<li> Profissionais qualificados </li>
+    					<li> Entregas dentro do prazo </li>
+    					<li> Clientes satisfeitos! </li>
+    				</ul>
 
     			</p>
 
@@ -108,7 +108,7 @@
 
     		<section class="box-meta">
     			
-    			<h1 class="box-meta-title"> Por quê nos escolher? </h1>
+    			<h1 class="box-meta-title"> Depoimentos </h1>
 
     			<p class="box-meta-content">
     				
@@ -127,32 +127,32 @@
 
     	<footer class="footer clearfix">
     	
-    		<div class="box-centered box-main-width">
+    		<div class="box-centered box-main-width clearfix">
     		
-    			<div class="footer-section-nav">
+    			<div class="footer-section footer-section-nav clearfix">
     			
 		    		<div class="footer-nav-box">
 		    			
 		    				<ul class="nav-list">
-		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Home</a> </li>
-		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Quem Somos</a> </li>
-		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >O que fazemos</a> </li>
-		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Clientes</a> </li>
-		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Cases</a> </li>
-		    					<li class="nav-list-item"> <a href="http://www.google.com.br" title="" >Contato</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" hreflang="pt-br" title="" >Home</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" hreflang="pt-br" title="" >Quem Somos</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" hreflang="pt-br" title="" >O que fazemos</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" hreflang="pt-br" title="" >Clientes</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" hreflang="pt-br" title="" >Cases</a> </li>
+		    					<li class="nav-list-item"> <a href="http://www.google.com.br" hreflang="pt-br" title="" >Contato</a> </li>
 		    				</ul>
 		    			
 		    		</div>
 		    			
 		    		<ul class="footer-social-box social-list">
-		    					<li class="social-list-item facebook"> <a href="http://www.google.com.br" title="Clique aqui e torne-se um fã do Asccode no Facebook." class="ir">Facebook</a> </li>
-		    					<li class="social-list-item twitter"> <a href="http://www.google.com.br" title="Siga o perfil do Asccode no Twitter." class="ir">Twitter</a> </li>
-		    					<li class="social-list-item gplus"> <a href="http://www.google.com.br" title="Siga o perfil do Asccode no G+." class="ir">Google Plus</a> </li>
+						<li class="social-list-item facebook"> <a href="http://www.google.com.br" title="Clique aqui e torne-se um fã do Asccode no Facebook." class="ir">Facebook</a> </li>
+						<li class="social-list-item twitter"> <a href="http://www.google.com.br" title="Siga o perfil do Asccode no Twitter." class="ir">Twitter</a> </li>
+						<li class="social-list-item gplus"> <a href="http://www.google.com.br" title="Siga o perfil do Asccode no G+." class="ir">Google Plus</a> </li>
 		    		</ul>
     			
     			</div>
     		
-    			<section class="footer-section footer-section-contact">
+    			<section class="footer-section footer-section-contact clearfix">
     				<h1>Contato</h1>
     				<p>Entre em contato conosco através do formulário abaixo.</p>
                     <form action="" method="post" role="form">
@@ -163,7 +163,7 @@
                     </form>
     			</section>
     			
-    			<section class="footer-section footer-section-newsletter">
+    			<section class="footer-section footer-section-newsletter clearfix">
     				<h1>Novidades</h1>
     				<p>Receba as nossas novidades por email e fique por dentro  de tudo.</p> 
                     <form action="" method="post">
