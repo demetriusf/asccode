@@ -57,7 +57,7 @@
     	
     	<section role="main" class="box-centered box-main-width clearfix">
 
-    		<section class="detailed-link">
+    		<section class="detailed-link clearfix">
     			
     			<p class="details">
 	    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -78,12 +78,7 @@
 
     			<p class="box-meta-content">
     				
-	    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Empresa
 
     			</p>
 
@@ -129,7 +124,7 @@
     	
     		<div class="box-centered box-main-width clearfix">
     		
-    			<div class="footer-section footer-section-nav clearfix">
+    			<div class="footer-section footer-section-nav">
     			
 		    		<div class="footer-nav-box">
 		    			
@@ -152,7 +147,7 @@
     			
     			</div>
     		
-    			<section class="footer-section footer-section-contact clearfix">
+    			<section class="footer-section footer-section-contact">
     				<h1>Contato</h1>
     				<p>Entre em contato conosco através do formulário abaixo.</p>
                     <form action="" method="post" role="form">
@@ -163,7 +158,7 @@
                     </form>
     			</section>
     			
-    			<section class="footer-section footer-section-newsletter clearfix">
+    			<section class="footer-section footer-section-newsletter">
     				<h1>Novidades</h1>
     				<p>Receba as nossas novidades por email e fique por dentro  de tudo.</p> 
                     <form action="" method="post">
@@ -174,7 +169,6 @@
     			</section>
     		
     		</div>
-    	
     	</footer>
     
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
