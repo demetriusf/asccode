@@ -1,5 +1,5 @@
 <?php
-phpinfo();
+phpinfo(); die;
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
