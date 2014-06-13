@@ -1,0 +1,13 @@
+- Incluir defer
+- Confirmar se todas as imagens têm largura e altura
+- Checar regras css não utilizadas e removê-las.
+- Minificar todos os html
+- Minificar todos os javascript
+- Minificar todos os css
+- Otimizar todas as imagens e sprites.
+- Carregar slides no onload
+- Verificar a necessidade de imagens.
+- Uso o modernizr?
+- O modernizer está otimizado?
+- Se eu remover o modernizr vou precisar remover também o html5shiv?
+- Testar todo o header, etag, e etc.
